@@ -1,0 +1,512 @@
+# EESchema Netlist Version 1.1 created  Sun 01 Apr 2012 11:42:33 AM CEST
+(
+ ( /4F780CAF $noname  R9 10K {Lib=R}
+  (    1 N-000031 )
+  (    2 GND )
+ )
+ ( /4EE67971 $noname  C5 10uF {Lib=C}
+  (    1 N-000029 )
+  (    2 GND )
+ )
+ ( /4EE678FF $noname  C9 10nF {Lib=C}
+  (    1 N-000007 )
+  (    2 GND )
+ )
+ ( /4EE52C17 $noname  D2 DIODESCH {Lib=DIODESCH}
+  (    1 N-000011 )
+  (    2 N-000030 )
+ )
+ ( /4EE52BD5 $noname  D1 DIODESCH {Lib=DIODESCH}
+  (    1 N-000008 )
+  (    2 N-000030 )
+ )
+ ( /4EE52A9F $noname  C10 10uF {Lib=C}
+  (    1 3V3 )
+  (    2 GND )
+ )
+ ( /4EE52A5E $noname  U1 LP2985-33 {Lib=LP2985-33}
+  (    1 N-000029 )
+  (    2 GND )
+  (    3 N-000029 )
+  (    4 N-000007 )
+  (    5 3V3 )
+ )
+ ( /4EE4E940 $noname  P2 CONN_5X2 {Lib=CONN_5X2}
+  (    1 N-000011 )
+  (    2 /PROG )
+  (    3 /RESET )
+  (    4 /SCK )
+  (    5 3V3 )
+  (    6 /MOSI )
+  (    7 ? )
+  (    8 /MISO )
+  (    9 GND )
+  (   10 N-000031 )
+ )
+ ( /4EE4E80F $noname  U2 MC74VHC1GT50 {Lib=MC74VHC1GT50}
+  (    2 N-000031 )
+  (    3 GND )
+  (    4 /CSN )
+  (    5 3V3 )
+ )
+ ( /4E50D18F $noname  P1 USB-A-MALE {Lib=USB-A-MALE}
+  (    1 N-000008 )
+  (    2 N-000004 )
+  (    3 N-000003 )
+  (    4 GND )
+ )
+ ( /4E1F0493 $noname  X1 CRYSTAL_SMD {Lib=CRYSTAL_SMD}
+  (    1 N-000002 )
+  (    2 GND )
+  (    3 N-000001 )
+  (    4 GND )
+ )
+ ( /4DF51833 $noname  R6 10K {Lib=R}
+  (    1 /PROG )
+  (    2 GND )
+ )
+ ( /4DF4F47F $noname  C7 10nF {Lib=C}
+  (    1 3V3 )
+  (    2 GND )
+ )
+ ( /4DF4F146 $noname  Y1 CONREVSMA {Lib=CONREVSMA}
+  (    1 N-000028 )
+  (    2 GND )
+  (    3 GND )
+  (    4 GND )
+  (    5 GND )
+ )
+ ( /4DED1015 $noname  R3 10R {Lib=R}
+  (    1 N-000029 )
+  (    2 N-000030 )
+ )
+ ( /4DED0FA0 $noname  R4 10K {Lib=R}
+  (    1 /RESET )
+  (    2 3V3 )
+ )
+ ( /4DED0F32 $noname  R2 22R {Lib=R}
+  (    1 /USBDP )
+  (    2 N-000003 )
+ )
+ ( /4DED0F28 $noname  R1 22R {Lib=R}
+  (    1 /USBDM )
+  (    2 N-000004 )
+ )
+ ( /4DE7C4FB $noname  U3 NRF24LU1+ {Lib=NRF24LU1+}
+  (    1 3V3 )
+  (    2 ? )
+  (    3 3V3 )
+  (    4 /USBDP )
+  (    5 /USBDM )
+  (    6 GND )
+  (    7 /PROG )
+  (    8 /RESET )
+  (    9 3V3 )
+  (   10 /SCK )
+  (   11 /MOSI )
+  (   12 GND )
+  (   13 /MISO )
+  (   14 /CSN )
+  (   15 N-000025 )
+  (   16 /CSN )
+  (   17 GND )
+  (   18 GND )
+  (   19 3V3 )
+  (   20 N-000032 )
+  (   21 N-000020 )
+  (   22 N-000018 )
+  (   23 GND )
+  (   24 3V3 )
+  (   25 N-000017 )
+  (   26 GND )
+  (   27 3V3 )
+  (   28 N-000015 )
+  (   29 N-000016 )
+  (   30 GND )
+  (   31 N-000001 )
+  (   32 N-000002 )
+ )
+ ( /4DE8C379 $noname  R7 1.5k {Lib=R}
+  (    1 N-000027 )
+  (    2 /MISO )
+ )
+ ( /4DE8C373 $noname  R8 1.5k {Lib=R}
+  (    1 N-000026 )
+  (    2 N-000025 )
+ )
+ ( /4DE8C355 $noname  D3 LED2 {Lib=LED}
+  (    1 N-000027 )
+  (    2 GND )
+ )
+ ( /4DE8C34B $noname  D4 LED1 {Lib=LED}
+  (    1 N-000026 )
+  (    2 GND )
+ )
+ ( /4DE89F8E $noname  C6 10nF {Lib=C}
+  (    1 3V3 )
+  (    2 GND )
+ )
+ ( /4DE89F8A $noname  C8 100nF {Lib=C}
+  (    1 3V3 )
+  (    2 GND )
+ )
+ ( /4DE800F3 $noname  C11 2.2nF {Lib=C}
+  (    1 N-000032 )
+  (    2 GND )
+ )
+ ( /4DE8007D $noname  C13 1.0pF {Lib=C}
+  (    1 N-000028 )
+  (    2 GND )
+ )
+ ( /4DE80043 $noname  C12 1.2pF {Lib=C}
+  (    1 N-000028 )
+  (    2 N-000019 )
+ )
+ ( /4DE7FFF3 $noname  L3 6.8nH {Lib=INDUCTOR}
+  (    1 N-000032 )
+  (    2 N-000020 )
+ )
+ ( /4DE7FFEE $noname  L1 6.8nH {Lib=INDUCTOR}
+  (    1 N-000018 )
+  (    2 N-000020 )
+ )
+ ( /4DE7FFE0 $noname  L2 4.7nH {Lib=INDUCTOR}
+  (    1 N-000019 )
+  (    2 N-000018 )
+ )
+ ( /4DE7FB4C $noname  C4 15pF {Lib=C}
+  (    1 N-000001 )
+  (    2 GND )
+ )
+ ( /4DE7FB46 $noname  C3 15pF {Lib=C}
+  (    1 N-000002 )
+  (    2 GND )
+ )
+ ( /4DE7F9F2 $noname  R5 22K {Lib=R}
+  (    1 N-000017 )
+  (    2 GND )
+ )
+ ( /4DE7F9A0 $noname  C2 33nF {Lib=C}
+  (    1 N-000016 )
+  (    2 GND )
+ )
+ ( /4DE7F996 $noname  C1 33nF {Lib=C}
+  (    1 N-000015 )
+  (    2 GND )
+ )
+)
+*
+{ Allowed footprints by component:
+$component R9
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component C5
+ SM*
+ C?
+ C1-1
+$endlist
+$component C9
+ SM*
+ C?
+ C1-1
+$endlist
+$component D2
+ D?
+ S*
+$endlist
+$component D1
+ D?
+ S*
+$endlist
+$component C10
+ SM*
+ C?
+ C1-1
+$endlist
+$component X1
+ XTAL-5.0x3.2
+$endlist
+$component R6
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component C7
+ SM*
+ C?
+ C1-1
+$endlist
+$component R3
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R4
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R2
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R1
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R7
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R8
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component D3
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D4
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component C6
+ SM*
+ C?
+ C1-1
+$endlist
+$component C8
+ SM*
+ C?
+ C1-1
+$endlist
+$component C11
+ SM*
+ C?
+ C1-1
+$endlist
+$component C13
+ SM*
+ C?
+ C1-1
+$endlist
+$component C12
+ SM*
+ C?
+ C1-1
+$endlist
+$component C4
+ SM*
+ C?
+ C1-1
+$endlist
+$component C3
+ SM*
+ C?
+ C1-1
+$endlist
+$component R5
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component C2
+ SM*
+ C?
+ C1-1
+$endlist
+$component C1
+ SM*
+ C?
+ C1-1
+$endlist
+$endfootprintlist
+}
+{ Pin List by Nets
+Net 1 "" ""
+ C4 1
+ X1 3
+ U3 31
+Net 2 "" ""
+ X1 1
+ C3 1
+ U3 32
+Net 3 "" ""
+ R2 2
+ P1 3
+Net 4 "" ""
+ R1 2
+ P1 2
+Net 5 "/RESET" "RESET"
+ R4 1
+ U3 8
+ P2 3
+Net 7 "" ""
+ U1 4
+ C9 1
+Net 8 "" ""
+ D1 1
+ P1 1
+Net 10 "/MOSI" "MOSI"
+ P2 6
+ U3 11
+Net 11 "" ""
+ P2 1
+ D2 1
+Net 12 "/PROG" "PROG"
+ P2 2
+ R6 1
+ U3 7
+Net 13 "/SCK" "SCK"
+ P2 4
+ U3 10
+Net 14 "/MISO" "MISO"
+ P2 8
+ U3 13
+ R7 2
+Net 15 "" ""
+ U3 28
+ C1 1
+Net 16 "" ""
+ C2 1
+ U3 29
+Net 17 "" ""
+ R5 1
+ U3 25
+Net 18 "" ""
+ L1 1
+ L2 2
+ U3 22
+Net 19 "" ""
+ C12 2
+ L2 1
+Net 20 "" ""
+ U3 21
+ L1 2
+ L3 2
+Net 21 "3V3" "3V3"
+ C7 1
+ R4 2
+ U3 24
+ U3 27
+ U3 19
+ U3 1
+ U3 3
+ U3 9
+ U2 5
+ C8 1
+ U1 5
+ C6 1
+ C10 1
+ P2 5
+Net 22 "/USBDM" "USBDM"
+ U3 5
+ R1 1
+Net 23 "/USBDP" "USBDP"
+ U3 4
+ R2 1
+Net 24 "/CSN" "CSN"
+ U2 4
+ U3 16
+ U3 14
+Net 25 "" ""
+ R8 2
+ U3 15
+Net 26 "" ""
+ D4 1
+ R8 1
+Net 27 "" ""
+ D3 1
+ R7 1
+Net 28 "" ""
+ C13 1
+ C12 1
+ Y1 1
+Net 29 "" ""
+ R3 1
+ C5 1
+ U1 3
+ U1 1
+Net 30 "" ""
+ D2 2
+ D1 2
+ R3 2
+Net 31 "" ""
+ P2 10
+ R9 1
+ U2 2
+Net 32 "" ""
+ U3 20
+ L3 1
+ C11 1
+Net 33 "GND" "GND"
+ R9 2
+ C5 2
+ C10 2
+ C9 2
+ U2 3
+ P2 9
+ X1 2
+ X1 4
+ R6 2
+ C7 2
+ U1 2
+ Y1 2
+ Y1 3
+ Y1 4
+ Y1 5
+ P1 4
+ U3 6
+ U3 30
+ U3 12
+ U3 23
+ C11 2
+ C13 2
+ C4 2
+ U3 26
+ U3 17
+ U3 18
+ D3 2
+ D4 2
+ C6 2
+ C8 2
+ C3 2
+ R5 2
+ C2 2
+ C1 2
+}
+#End
